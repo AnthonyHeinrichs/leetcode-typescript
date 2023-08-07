@@ -2,5 +2,5 @@
 
 ## Arrays and Hashing
 - Contains Duplicate ✓
-- Valid Anagram
+- Valid Anagram ✓
 - Two Sum

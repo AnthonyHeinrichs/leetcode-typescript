@@ -2,7 +2,7 @@
 Given an integer array nums, return true if any value appears at least twice in the array, 
 and return false if every element is distinct. */
 
-// Sorting array and checking pairs, time = O(nlogn), space = O(1)
+// Sorting array and checking pairs
 function containsDuplicate(nums: number[]): boolean {
   const sortedNums = nums.sort((n1,n2) => n1 - n2);
   for (let i = 0; i < nums.length; i++) {
@@ -13,7 +13,7 @@ function containsDuplicate(nums: number[]): boolean {
   return false;
 };
 
-// Using a hash set and checking if the hash set contains the number we are itterating through, time = O(n), space = O(n)
+// Using a hash set and checking if the hash set contains the number we are itterating through
 function containsDuplicateTwo(nums: number[]): boolean {
   const hashSet = new Set()
   for (let i = 0; i < nums.length; i++) {
