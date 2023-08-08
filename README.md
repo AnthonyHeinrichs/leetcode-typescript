@@ -3,4 +3,5 @@
 ## Arrays and Hashing
 - Contains Duplicate ✓
 - Valid Anagram ✓
-- Two Sum
+- Two Sum ✓
+- Group Anagrams
