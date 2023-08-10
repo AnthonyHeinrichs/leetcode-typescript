@@ -10,7 +10,8 @@ function topKFrequent(nums: number[], k: number): number[] {
   }
 
   // O(n log n)
-  const sortedKeys = Object.keys(counts).map(Number).sort((a, b) => counts[b] - counts[a]);
-  
-  return sortedKeys.slice(0, k)
+  return Object.keys(counts)
+    .map(Number)
+    .sort((a, b) => counts[b] - counts[a])
+    .slice(0, k);
 }
